@@ -28,6 +28,8 @@ Install-Module AWSPowerShell.NetCore -Scope CurrentUser
 # private_subnets, public_subnets, and subnet_count values and
 # uncomment the updated values
 
+terraform plan -out m3.tfplan
+
 # Run the import commands in ImportCommands.txt
 
 terraform plan -out m3.tfplan
