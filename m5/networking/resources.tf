@@ -20,7 +20,7 @@ terraform {
 ##################################################################################
 
 provider "aws" {
-  profile = "deep-dive"
+  profile = "ferid"
   region  = var.region
 }
 
